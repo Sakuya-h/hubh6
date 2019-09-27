@@ -1,0 +1,4 @@
+python可变参数类型
+def _funcname(*a)
+def _funcname(**a)
+*将传递的参数储存在一元组中，**将传递的参数存储在一字典中
