@@ -2,3 +2,12 @@ python可变参数类型
 def _funcname(*a)
 def _funcname(**a)
 *将传递的参数储存在一元组中，**将传递的参数存储在一字典中
+异常处理
+1.整型除以0
+  Traceback (most recent call last):
+   File "<pyshell#0>", line 1, in <module>
+     2/0
+  ZeroDivisionError: division by zero
+语法错误和逻辑错误不属于异常
+try:
+  被检测的代码块
